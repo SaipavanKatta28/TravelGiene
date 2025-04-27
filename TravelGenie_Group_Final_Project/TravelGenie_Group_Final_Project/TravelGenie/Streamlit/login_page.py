@@ -2,10 +2,10 @@ import streamlit as st
 import requests
 from dotenv import load_dotenv
 import os
-load_dotenv()
+
 
 # Use a default value if FASTAPI_URL is not set
-FASTAPI_URL = os.getenv("FASTAPI_URL", "http://127.0.0.1:8000")
+FASTAPI_URL ="https://travelgenie-ob24.onrender.com" 
 
 # Set the page configuration to have a wide layout
 # st.set_page_config(page_title="TravelGenie", page_icon="🧳", layout="wide")
