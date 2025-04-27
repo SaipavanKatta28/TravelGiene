@@ -5,10 +5,9 @@ import os
 # Set the page configuration ONCE at the top of the app
 st.set_page_config(page_title="TravelGenie", page_icon="🧳", layout="wide")
 
-# Load environment variables
-load_dotenv()
 
-FASTAPI_URL = os.getenv("FASTAPI_URL")
+
+FASTAPI_URL ="https://travelgenie-ob24.onrender.com" 
 
 # Your welcome page function
 def welcome_page():
