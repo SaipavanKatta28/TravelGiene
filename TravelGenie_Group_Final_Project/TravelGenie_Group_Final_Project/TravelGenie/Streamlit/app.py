@@ -6,9 +6,10 @@ from chat_page import chat
 from dotenv import load_dotenv
 import os
 
-load_dotenv()
 
-FASTAPI_URL = os.getenv("FASTAPI_URL")
+
+FASTAPI_URL = "https://travelgenie-ob24.onrender.com"
+
 
 # Set the page configuration ONCE at the top of app.py (ensure it's only once)
 # st.set_page_config(page_title="AI Planner", page_icon="🤖", layout="wide")  # Remove this line
