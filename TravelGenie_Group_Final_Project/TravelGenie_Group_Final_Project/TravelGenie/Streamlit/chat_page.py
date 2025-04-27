@@ -4,10 +4,8 @@ from fpdf import FPDF
 from dotenv import load_dotenv
 import os
 
-# Load environment variables
-load_dotenv()
 
-FASTAPI_URL = os.getenv("FASTAPI_URL")
+FASTAPI_URL ="https://travelgenie-ob24.onrender.com" 
 
 # Function to make POST request to FastAPI
 def call_fastapi_endpoint(endpoint, payload):
